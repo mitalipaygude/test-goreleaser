@@ -1,0 +1,1 @@
+Test GoReleaser Actions
