@@ -5,12 +5,12 @@
 class OriginGoreleaser < Formula
   desc "CLI for managing EKS Anywhere Kubernetes clusters"
   homepage "https://github.com/aws/eks-anywhere"
-  version "0.0.2"
+  version "0.0.6"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/mitalipaygude/origin-goreleaser/releases/download/v0.0.2/origin-goreleaser_0.0.2_darwin_amd64.tar.gz"
-      sha256 "95494ec9e686621bba2d7cd901e7bbe362326109d4b39dacab0c31bc23219b50"
+      url "https://github.com/mitalipaygude/origin-goreleaser/releases/download/v0.0.6/origin-goreleaser_0.0.6_darwin_amd64.tar.gz"
+      sha256 "caca6c10babe7732d90c46b34da606191ee64673669d124180a0af9b72c749e9"
 
       def install
         bin.install "eksctl-anywhere"
@@ -20,8 +20,8 @@ class OriginGoreleaser < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/mitalipaygude/origin-goreleaser/releases/download/v0.0.2/origin-goreleaser_0.0.2_linux_amd64.tar.gz"
-      sha256 "aca8a9169e77572072092e78e095ac3f2cee3413871b69ff0e4efa146430dd95"
+      url "https://github.com/mitalipaygude/origin-goreleaser/releases/download/v0.0.6/origin-goreleaser_0.0.6_linux_amd64.tar.gz"
+      sha256 "261fd1d860eedc8f6033a9063826354c8774b404acdbfd5c5b52a3d5d2386c68"
 
       def install
         bin.install "eksctl-anywhere"
